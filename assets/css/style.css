@@ -1286,25 +1286,25 @@ form .button-area {
 
 /* Experience Section Styles */
 .experience {
-  padding: 4rem 0 3rem 0;
+  padding: 4rem 0 0rem 0; /* Change bottom padding from 2rem to 0rem */
   background: linear-gradient(90deg, #e3e8ff 60%, #f8fafc 100%);
 }
 
 .experience .heading {
   text-align: center;
-  font-size: 3.2rem;
-  margin-bottom: 2.5rem;
-  color: #1a237e;
+  font-size: 3.5rem;      /* Match Projects Made title size */
+  margin-bottom: 2rem;
+  color: #2b3dda;
+  font-weight: 800;       /* Match boldness */
   letter-spacing: 1px;
-  font-weight: 700;
 }
 
 .exp-card {
   max-width: 650px;
   margin: 0 auto;
-  background: linear-gradient(100deg, #fff 70%, #e3e8ff 100%);
+  background: linear-gradient(120deg, #2b3dda 60%, #00ffd0 100%);
   border-radius: 22px;
-  box-shadow: 0 6px 32px rgba(43,61,218,0.13);
+  box-shadow: 0 8px 32px rgba(43,61,218,0.18);
   display: flex;
   align-items: center;
   padding: 2.5rem 2rem;
@@ -1313,14 +1313,14 @@ form .button-area {
 }
 
 .exp-card:hover {
-  box-shadow: 0 12px 40px rgba(43,61,218,0.18);
+  box-shadow: 0 12px 40px rgba(43,61,218,0.28);
   transform: translateY(-4px) scale(1.03);
 }
 
 .exp-icon {
   flex-shrink: 0;
-  background: linear-gradient(135deg, #2b3dda 60%, #00ffd0 100%);
-  color: #fff;
+  background: linear-gradient(135deg, #fff 60%, #2b3dda 100%);
+  color: #2b3dda;
   border-radius: 50%;
   width: 90px;
   height: 90px;
@@ -1333,15 +1333,18 @@ form .button-area {
 
 .exp-details h3 {
   margin: 0 0 0.5rem 0;
-  font-size: 2.2rem;
-  color: #2b3dda;
-  font-weight: 700;
+  font-size: 2.4rem;           /* Larger font size */
+  color: #fff;
+  font-weight: 800;            /* Bolder font */
+  font-family: 'Poppins', sans-serif; /* Modern font */
+  text-shadow: 0 2px 8px #2b3dda33;
+  letter-spacing: 1px;
 }
 
 .exp-role {
   display: block;
   font-size: 1.4rem;
-  color: #009688;
+  color: #00ffd0;
   margin-bottom: 0.7rem;
   font-weight: 600;
 }
@@ -1349,15 +1352,18 @@ form .button-area {
 .exp-date {
   display: block;
   font-size: 1.1rem;
-  color: #888;
+  color: #e3e8ff;
   margin-bottom: 1.2rem;
 }
 
 .exp-details p {
   margin: 0;
-  font-size: 1.25rem;
-  color: #333;
-  line-height: 1.7;
+  font-size: 1.5rem;           /* Larger paragraph */
+  color: #f8fafc;
+  line-height: 1.8;
+  font-family: 'Nunito', sans-serif; /* Clean, readable font */
+  font-weight: 500;
+  letter-spacing: 0.2px;
 }
 
 /* Responsive Styles */
@@ -1365,18 +1371,18 @@ form .button-area {
   .exp-card {
     max-width: 95vw;
     gap: 1.5rem;
-    padding: 2rem 1rem;
+    padding: 1.2rem;
   }
   .exp-icon {
-    width: 70px;
-    height: 70px;
-    font-size: 2.2rem;
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
   }
   .experience .heading {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .exp-details h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .exp-details p {
     font-size: 1.05rem;
@@ -1387,16 +1393,16 @@ form .button-area {
   .exp-card {
     flex-direction: column;
     align-items: flex-start;
-    padding: 1.2rem;
+    padding: 1rem;
     gap: 1rem;
   }
   .exp-icon {
-    width: 50px;
-    height: 50px;
-    font-size: 1.6rem;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
   }
   .experience .heading {
-    font-size: 3.5rem;
+    font-size: 1.3rem;
   }
   .exp-details h3 {
     font-size: 1.1rem;
